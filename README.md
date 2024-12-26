@@ -113,7 +113,7 @@ Blood Request	Request ID (PK)	INT
 •	Donation-Blood inventory (Donation-id PK in donation and FK in blood inventory)
 •	 Recipient id-blood request (Recipient-id PK in recipient and FK in blood-request)
 •	 Hospital id –recipient (Hospital-id PK in hospital and FK in recipient)
-5.	Transformation of ERD into Relational Data Model (RDM)
+5.	Transformation of ERD into Relational Data Model (RDM).
  
 6.	Report on Design Decisions 
 •	Entity Identification: We identified key entities based on the core functionalities of a blood donation management system. The focus was on donors, donations, blood inventories, hospitals, recipients, and requests.
@@ -123,5 +123,4 @@ Blood Request	Request ID (PK)	INT
 o	Ensured flexibility in blood inventory management by linking donations indirectly through a process.
 o	Addressed potential future scalability by allowing for additional attributes or entities without redesigning the schema.
 •	Data Types: Data types were chosen to optimize storage and enforce constraints. For instance, CHAR(3) was used for BloodType to represent standardized blood groups (e.g., "A+", "O-").
-
 
